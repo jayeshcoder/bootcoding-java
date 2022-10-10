@@ -11,19 +11,19 @@ public class Application {
         jayesh.setName("Jayesh G Harle");
         jayesh.setCity("Nagpur");
         jayesh.setState("maharashtra");
-        jayesh.setDileveryAddress("xyz");
+        jayesh.setDeliveryAddress("xyz");
         jayesh.print();
         Customer mohit = new Customer();
         mohit.setName("Mohit G Harle");
         mohit.setCity("Pune");
         mohit.setState("UP");
-        mohit.setDileveryAddress("abc");
+        mohit.setDeliveryAddress("abc");
         mohit.print();
         Customer pratik = new Customer();
         pratik.setName("Pratik P Zode");
         pratik.setCity("Mumbai");
         pratik.setState("MP");
-        pratik.setDileveryAddress("abc");
+        pratik.setDeliveryAddress("abc");
         pratik.print();
 
         OrderService orderService = new OrderService();
