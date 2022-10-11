@@ -1,9 +1,14 @@
 package com.bootcoding.java.model;
 
+import java.util.Date;
 import java.util.List;
 
 public class Order {
     private long id;
+
+    public long getId() {
+        return id;
+    }
     long CustomerId;
     long VendorId;
     double totalPrice;
@@ -11,7 +16,19 @@ public class Order {
 
     OrderStatus status;
     List <MenuItem> manuItems;
+    Date orderdate;
 
+    public Date getOrderdate() {
+        return orderdate;
+    }
+
+    public void setOrderdate(Date orderdate) {
+        this.orderdate = orderdate;
+    }
+
+    public void setId(long id) {
+        this.id = id;
+    }
     public long getCustomerId() {
         return CustomerId;
     }
